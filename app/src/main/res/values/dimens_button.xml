@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="action_button_size">40dp</dimen>
+    <dimen name="action_button_corner_radius">30dp</dimen>
+
+    <dimen name="primary_button_size">44dp</dimen>
+    <dimen name="primary_button_corner_radius">@dimen/corner_radius_m</dimen>
+    <dimen name="primary_button_size_width_m">240dp</dimen>
+    <dimen name="primary_button_size_width_h">275dp</dimen>
+
+    <dimen name="text_button_size">36dp</dimen>
+
+    <dimen name="toggle_button_size">28dp</dimen>
+    <dimen name="toggle_button_width">56dp</dimen>
+    <dimen name="toggle_button_corner_radius">@dimen/corner_radius_m</dimen>
+    <dimen name="toggle_button_border_thickness">@dimen/border_thickness_m</dimen>
+
+    <dimen name="fab_collapsed_size">48dp</dimen>
+    <dimen name="fab_extended_size">40dp</dimen>
+    <dimen name="fab_extended_corner_radius">30dp</dimen>
+
+    <dimen name="fab_submenu_size">40dp</dimen>
+    <dimen name="fab_submenu_spacing">@dimen/spacing_m</dimen>
+
+    <dimen name="anchor_button_size">44dp</dimen>
+
+    <dimen name="collapsed_button_corner_radius">20dp</dimen>
+
+    <dimen name="elevated_button_size_m">40dp</dimen>
+    <dimen name="elevated_button_corner_radius">30dp</dimen>
+</resources>

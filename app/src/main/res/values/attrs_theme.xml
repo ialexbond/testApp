@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AppTheme">
+        <attr name="proximaEditTextStyle" format="reference" />
+        <attr name="singleLineMenuStyle" format="reference" />
+        <attr name="twoLineViewStyle" format="reference" />
+        <attr name="editTextWithPostfix" format="reference" />
+        <attr name="textInputPostfixStyle" format="reference" />
+        <attr name="ourSearchViewStyle" format="reference" />
+        <attr name="progressBarStyle" format="reference" />
+        <attr name="stubViewStyle" format="reference" />
+        <attr name="etagiLogo" format="reference" />
+        <!-- UI components -->
+        <attr name="colorModalToolbar" format="reference|color" /> <!-- acc bgContainer -->
+        <attr name="colorElevatedButton" format="reference|color" /> <!-- acc pr -->
+        <attr name="colorElevatedButtonDisable" format="reference|color" /> <!-- acc pr -->
+        <attr name="colorPrimaryButton" format="reference|color" /> <!-- acc pr -->
+        <attr name="colorPrimaryButtonHighlight" format="reference|color" /> <!-- acc pr -->
+        <attr name="colorPrimaryButtonDisable" format="reference|color" /> <!-- acc pr -->
+        <attr name="colorDistanceSeekbar" format="reference|color" /> <!-- acc pr -->
+        <attr name="colorRippleSecondary" format="reference|color" /> <!-- acc pr -->
+        <attr name="colorTabTextSelected" format="reference|color" /> <!-- acc pr -->
+        <attr name="colorToggleButtonBg" format="reference|color" /> <!-- acc pr -->
+        <attr name="colorUnreadMsg" format="reference|color" /> <!-- acc pr -->
+        <!-- Core-Android -->
+        <attr name="colorSingleSelectCheck" format="reference|color" /> <!-- acc pr -->
+        <!-- Map -->
+        <attr name="colorSelectAreaBorder" format="reference|color" /> <!-- acc pr -->
+        <attr name="colorSelectAreaBackground" format="reference|color" /> <!-- acc pr -->
+        <attr name="colorMarker" format="reference|color" /> <!-- acc pr -->
+        <attr name="colorMarkerSelected" format="reference|color" /> <!-- pr acc -->
+    </declare-styleable>
+
+    <declare-styleable name="AppThemeColors">
+        <attr name="colorTransparent" format="reference" />
+        <attr name="colorShadow1" format="reference" />
+        <attr name="colorShadow2" format="reference" />
+        <attr name="colorShadow3" format="reference" />
+
+        <attr name="colorPrimaryNormal" format="reference" />
+        <attr name="colorPrimaryHighlight" format="reference" />
+        <attr name="colorPrimaryDisable" format="reference" />
+
+        <attr name="colorDefaultAccentNormal" format="reference" />
+        <attr name="colorAccentNormal" format="reference" />
+        <attr name="colorAccentNormal8" format="reference" />
+        <attr name="colorAccentSecondary" format="reference" />
+        <attr name="colorAccentDisable" format="reference" />
+        <attr name="colorAccentDynamicNormal" format="reference" />
+
+        <attr name="colorTextPrimary" format="reference" />
+        <attr name="colorTextSecondary" format="reference" />
+        <attr name="colorTextDisable" format="reference" />
+        <attr name="colorTextSnackbar" format="reference" />
+        <attr name="colorTextWhite" format="reference" />
+        <attr name="colorTextSecondaryWhite" format="reference" />
+
+        <attr name="colorIconTool" format="reference" />
+        <attr name="colorIconNormal" format="reference" />
+        <attr name="colorIconWhite" format="reference" />
+
+        <attr name="colorOverlayLoader" format="reference" />
+        <attr name="colorOverlayInactive" format="reference" />
+        <attr name="colorOverlayPhoto" format="reference" />
+        <attr name="colorOverlayLightTransparency" format="reference" />
+        <attr name="colorOverlayHelp" format="reference" />
+        <attr name="colorOverlayStandart" format="reference" />
+        <attr name="colorOverlayImagebox" format="reference" />
+        <attr name="colorOverlayMessage" format="reference" />
+        <attr name="colorOverlayStatusServer" format="reference" />
+
+        <attr name="colorUiDivider" format="reference" />
+        <attr name="colorUiCounterOpaque" format="reference" />
+        <attr name="colorUiDisableRadio" format="reference" />
+        <attr name="colorUiChessInactive" format="reference" />
+        <attr name="colorUiSkeleton" format="reference" />
+        <attr name="colorUiHighlight" format="reference" />
+        <attr name="colorUiBannerAlert" format="reference" />
+        <attr name="colorUiLightStroke" format="reference" />
+        <attr name="colorUiCounter" format="reference" />
+        <attr name="colorUiCounterWhite" format="reference" />
+        <attr name="colorUiNear" format="reference" />
+        <attr name="colorUiNearRadius" format="reference" />
+        <attr name="colorUiQr" format="reference" />
+        <attr name="colorUiTag" format="reference" />
+        <attr name="colorUiHighlightLight" format="reference" />
+        <attr name="colorUiHighlightCamera" format="reference" />
+        <attr name="colorUiHiddenStroke" format="reference" />
+
+        <attr name="colorButtonGray" format="reference" />
+        <attr name="colorButtonLightGray" format="reference" />
+        <attr name="colorButtonBg" format="reference" />
+        <attr name="colorButtonBgHighlight" format="reference" />
+        <attr name="colorButtonSecondaryError" format="reference" />
+
+        <attr name="colorGray900" format="reference" />
+        <attr name="colorGray800" format="reference" />
+        <attr name="colorGray700" format="reference" />
+        <attr name="colorGray600" format="reference" />
+        <attr name="colorGray500" format="reference" />
+        <attr name="colorGray400" format="reference" />
+        <attr name="colorGray300" format="reference" />
+        <attr name="colorGray200" format="reference" />
+        <attr name="colorGray100" format="reference" />
+        <attr name="colorGray50" format="reference" />
+
+        <attr name="colorBannerAdditionalWarning" format="reference" />
+        <attr name="colorBannerAdditionalIconWarning" format="reference" />
+        <attr name="colorBannerAdditionalError" format="reference" />
+        <attr name="colorBannerAdditionalIconError" format="reference" />
+        <attr name="colorBannerAdditionalSuccess" format="reference" />
+        <attr name="colorBannerAdditionalIconSuccess" format="reference" />
+        <attr name="colorBannerAdditionalInfo" format="reference" />
+        <attr name="colorBannerAdditionalIconInfo" format="reference" />
+        <attr name="colorBannerAdditionalGray" format="reference" />
+        <attr name="colorBannerAdditionalIconGray" format="reference" />
+
+        <attr name="colorMessageBubbleMe" format="reference" />
+        <attr name="colorMessageBubbleNotMine" format="reference" />
+
+        <attr name="colorBgCanvas" format="reference" />
+        <attr name="colorBgContainer" format="reference" />
+        <attr name="colorBgSnackbar" format="reference" />
+        <attr name="colorBgChessCell" format="reference" />
+        <attr name="colorBgMultimedia" format="reference" />
+        <attr name="colorBgMapGreen" format="reference" />
+        <attr name="colorBgMapYellow" format="reference" />
+        <attr name="colorBgMapRed" format="reference" />
+        <attr name="colorBgMapBlue" format="reference" />
+        <attr name="colorBgContainerWhite" format="reference" />
+
+        <attr name="colorOtherBrand" format="reference" />
+        <attr name="colorOtherDynamicError" format="reference" />
+
+        <attr name="colorPlaceholderRed1" format="reference" />
+        <attr name="colorPlaceholderRed2" format="reference" />
+        <attr name="colorPlaceholderRaspberry1" format="reference" />
+        <attr name="colorPlaceholderRaspberry2" format="reference" />
+        <attr name="colorPlaceholderIndigo1" format="reference" />
+        <attr name="colorPlaceholderIndigo2" format="reference" />
+        <attr name="colorPlaceholderLilac1" format="reference" />
+        <attr name="colorPlaceholderLilac2" format="reference" />
+        <attr name="colorPlaceholderBlue1" format="reference" />
+        <attr name="colorPlaceholderBlue2" format="reference" />
+        <attr name="colorPlaceholderLightBlue1" format="reference" />
+        <attr name="colorPlaceholderLightBlue2" format="reference" />
+        <attr name="colorPlaceholderGreen1" format="reference" />
+        <attr name="colorPlaceholderGreen3" format="reference" />
+        <attr name="colorPlaceholderGreen2" format="reference" />
+        <attr name="colorPlaceholderYellow1" format="reference" />
+        <attr name="colorPlaceholderYellow2" format="reference" />
+
+        <attr name="colorCompaniesBlueVk" format="reference" />
+        <attr name="colorCompaniesBlueFacebook" format="reference" />
+        <attr name="colorCompaniesBlueTelegram" format="reference" />
+        <attr name="colorCompaniesRedYoutube" format="reference" />
+        <attr name="colorCompaniesBrownInstagram" format="reference" />
+        <attr name="colorCompaniesOrangeOk" format="reference" />
+        <attr name="colorCompaniesGosuslugi" format="reference" />
+
+        <attr name="colorTrafficGreenGoga" format="reference" />
+        <attr name="colorTrafficRedBatam" format="reference" />
+        <attr name="colorTrafficYellowKris" format="reference" />
+        <attr name="colorTrafficGreyMoldov" format="reference" />
+        <attr name="colorTrafficGreenMoroch" format="reference" />
+        <attr name="colorTrafficGreenCactuus" format="reference" />
+
+        <attr name="colorLinksNormal" format="reference" />
+        <attr name="colorLinksActive" format="reference" />
+        <attr name="colorLinksVisited" format="reference" />
+
+        <attr name="colorGraphCity" format="reference" />
+        <attr name="colorGraphDistrict" format="reference" />
+        <attr name="colorGraphObject" format="reference" />
+
+        <attr name="colorCalendarEventEvent" format="reference" />
+        <attr name="colorCalendarEventClientCall" format="reference" />
+        <attr name="colorCalendarEventClientMeeting" format="reference" />
+
+        <!-- Widget Colors (no_need) -->
+
+        <!-- Chess Colors (not added cause no use at now) -->
+
+        <attr name="colorSystemSuccess" format="reference" />
+        <attr name="colorSystemAttention" format="reference" />
+        <attr name="colorSystemWarning" format="reference" />
+        <attr name="colorSystemWarningHighlight" format="reference" />
+        <attr name="colorSystemError" format="reference" />
+
+        <attr name="colorStoriesProgressActive" format="reference" />
+        <attr name="colorStoriesProgressInactive" format="reference" />
+
+        <attr name="colorAndroidEdgeEffect" format="reference" />
+    </declare-styleable>
+</resources>

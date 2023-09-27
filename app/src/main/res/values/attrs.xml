@@ -1,0 +1,1161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="icon" format="reference" />
+    <attr name="iconTint" format="color" />
+    <attr name="title" format="string|reference" />
+    <attr name="subtitle" format="string|reference" />
+    <attr name="text" format="string|reference" />
+    <attr name="cornerRadius" format="dimension" />
+    <attr name="beforeTextIcon" format="reference" />
+    <attr name="beforeTextIconTint" format="color" />
+    <attr name="afterTextIcon" format="reference" />
+    <attr name="afterTextIconTint" format="color" />
+    <attr name="textColor" format="color" />
+    <attr name="textAppearance" format="reference" />
+    <attr name="textMaxLines" format="integer" />
+    <attr name="textGravity" format="enum">
+        <enum name="none" value="0" />
+        <enum name="center_vertical" value="1" />
+        <enum name="center_horizontal" value="2" />
+        <enum name="center" value="3" />
+        <enum name="start" value="4" />
+    </attr>
+    <attr name="cornersType" format="enum">
+        <enum name="none" value="0" />
+        <enum name="top" value="1" />
+        <enum name="bottom" value="2" />
+        <enum name="all" value="3" />
+    </attr>
+    <attr name="progress" format="boolean" />
+    <attr name="textWrapping" format="boolean" />
+    <attr name="titleAppearance" format="reference" />
+    <attr name="subtitleAppearance" format="reference" />
+    <attr name="beforeText" format="enum">
+        <enum name="none" value="0" />
+        <enum name="icon" value="1" />
+        <enum name="avatar" value="2" />
+    </attr>
+    <attr name="afterText" format="enum">
+        <enum name="none" value="0" />
+        <enum name="icon" value="1" />
+    </attr>
+    <attr name="styleButton" format="enum">
+        <enum name="primary" value="0" />
+        <enum name="action" value="1" />
+        <enum name="anchor" value="2" />
+    </attr>
+    <attr name="beforeTextAvatarBorder" format="enum">
+        <enum name="no" value="0" />
+        <enum name="yes" value="1" />
+    </attr>
+    <attr name="image" format="reference" />
+    <attr name="imageTint" format="color" />
+    <attr name="size" format="dimension" />
+    <attr name="firstIcon" format="reference" />
+    <attr name="firstIconTint" format="color" />
+    <attr name="secondIcon" format="reference" />
+    <attr name="secondIconTint" format="color" />
+    <attr name="counterValue" format="integer" />
+    <attr name="cardPeopleType" format="enum">
+        <enum name="slim" value="0" />
+        <enum name="wide" value="1" />
+    </attr>
+    <attr name="itemLeftType" format="enum">
+        <enum name="none" value="0" />
+        <enum name="icon" value="1" />
+        <enum name="imageBox" value="2" />
+        <enum name="counter" value="3" />
+        <enum name="meta" value="4" />
+        <enum name="label" value="5" />
+        <enum name="button" value="6" />
+        <enum name="control" value="7" />
+        <enum name="switcher" value="8" />
+    </attr>
+    <attr name="itemLeftImage" format="reference" />
+    <attr name="itemLeftImageTint" format="reference" />
+    <attr name="itemLeftCounterStyle" format="enum">
+        <enum name="withBg" value="0" />
+        <enum name="withoutBg" value="1" />
+    </attr>
+    <attr name="itemLeftTouchTarget" format="enum">
+        <enum name="none" value="0" />
+        <enum name="size48x48" value="1" />
+    </attr>
+    <attr name="itemLeftText" format="string" />
+    <attr name="itemLeftTextAppearance" format="reference" />
+    <attr name="itemLeftButtonStyle" format="enum">
+        <enum name="outline" value="0" />
+        <enum name="outlineIcon" value="1" />
+        <enum name="text" value="2" />
+        <enum name="textIcon" value="3" />
+        <enum name="toggle" value="4" />
+    </attr>
+    <attr name="itemLeftControlStyle" format="enum">
+        <enum name="radioButton" value="0" />
+        <enum name="checkBox" value="1" />
+    </attr>
+    <attr name="itemLeftLoaderStyle" format="enum">
+        <enum name="accent24X24" value="0" />
+    </attr>
+
+    <attr name="itemRightFirstType" format="enum">
+        <enum name="none" value="0" />
+        <enum name="icon" value="1" />
+        <enum name="imageBox" value="2" />
+        <enum name="counter" value="3" />
+        <enum name="meta" value="4" />
+        <enum name="label" value="5" />
+        <enum name="button" value="6" />
+        <enum name="control" value="7" />
+        <enum name="switcher" value="8" />
+        <enum name="loader" value="9" />
+    </attr>
+    <attr name="itemRightFirstImage" format="reference" />
+    <attr name="itemRightFirstImageTint" format="reference" />
+    <attr name="itemRightFirstCounterStyle" format="enum">
+        <enum name="withBg" value="0" />
+        <enum name="withoutBg" value="1" />
+    </attr>
+    <attr name="itemRightFirstText" format="string" />
+    <attr name="itemRightFirstTextAppearance" format="reference" />
+    <attr name="itemRightFirstButtonStyle" format="enum">
+        <enum name="outline" value="0" />
+        <enum name="outlineIcon" value="1" />
+        <enum name="text" value="2" />
+        <enum name="textIcon" value="3" />
+        <enum name="toggle" value="4" />
+    </attr>
+    <attr name="itemRightFirstControlStyle" format="enum">
+        <enum name="radioButton" value="0" />
+        <enum name="checkBox" value="1" />
+    </attr>
+    <attr name="itemRightFirstLoaderStyle" format="enum">
+        <enum name="accent24X24" value="0" />
+    </attr>
+    <attr name="itemRightFirstTouchTarget" format="enum">
+        <enum name="none" value="0" />
+        <enum name="size48x48" value="1" />
+    </attr>
+
+    <attr name="itemRightSecondType" format="enum">
+        <enum name="none" value="0" />
+        <enum name="icon" value="1" />
+        <enum name="imageBox" value="2" />
+        <enum name="counter" value="3" />
+        <enum name="meta" value="4" />
+        <enum name="label" value="5" />
+        <enum name="button" value="6" />
+        <enum name="control" value="7" />
+        <enum name="switcher" value="8" />
+    </attr>
+    <attr name="itemRightSecondImage" format="reference" />
+    <attr name="itemRightSecondImageTint" format="reference" />
+    <attr name="itemRightSecondCounterStyle" format="enum">
+        <enum name="withBg" value="0" />
+        <enum name="withoutBg" value="1" />
+    </attr>
+    <attr name="itemRightSecondText" format="string" />
+    <attr name="itemRightSecondTextAppearance" format="reference" />
+    <attr name="itemRightSecondButtonStyle" format="enum">
+        <enum name="outline" value="0" />
+        <enum name="outlineIcon" value="1" />
+        <enum name="text" value="2" />
+        <enum name="textIcon" value="3" />
+        <enum name="toggle" value="4" />
+    </attr>
+    <attr name="itemRightSecondControlStyle" format="enum">
+        <enum name="radioButton" value="0" />
+        <enum name="checkBox" value="1" />
+    </attr>
+    <attr name="itemRightSecondLoaderStyle" format="enum">
+        <enum name="accent24X24" value="0" />
+    </attr>
+    <attr name="itemRightSecondTouchTarget" format="enum">
+        <enum name="none" value="0" />
+        <enum name="size48x48" value="1" />
+    </attr>
+
+    <declare-styleable name="ProximaTextView">
+        <attr name="textSizeType" format="enum">
+            <enum name="x34" value="0" />
+            <enum name="x24" value="1" />
+            <enum name="x20" value="2" />
+            <enum name="x16" value="3" />
+            <enum name="x14" value="4" />
+            <enum name="x12" value="5" />
+            <enum name="x10" value="6" />
+            <enum name="x18" value="7" />
+
+        </attr>
+        <attr name="extraTopPadding" format="dimension" />
+        <attr name="extraBottomPadding" format="dimension" />
+        <attr name="textWithRequired" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="MoreTextView">
+        <attr name="collapsedMaxLines" format="integer" />
+        <attr name="isCollapsed" format="boolean" />
+        <attr name="backgroundMore" format="reference" />
+        <attr name="morePadding" format="integer" />
+        <attr name="textMore" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="ProximaEditText">
+        <attr name="textSizeType" />
+        <attr name="extraTopPadding" />
+        <attr name="extraBottomPadding" />
+        <attr name="hasError" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="Offsets">
+        <attr name="offsetTop" format="dimension" />
+        <attr name="offsetBottom" format="dimension" />
+        <attr name="offsetLeft" format="dimension" />
+        <attr name="offsetRight" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="SingleLineView">
+        <attr name="text" />
+        <attr name="beforeTextIcon" />
+        <attr name="beforeTextIconTint" />
+        <attr name="afterTextIcon" />
+        <attr name="afterTextIconTint" />
+        <attr name="beforeText" />
+        <attr name="afterText" />
+        <attr name="textColor" />
+        <attr name="textAppearance" />
+        <attr name="textWrapping" />
+        <attr name="required" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="TwoLineView">
+        <attr name="title" />
+        <attr name="text" />
+        <attr name="meta" format="string" />
+        <attr name="beforeTextIcon" />
+        <attr name="beforeTextIconTint" />
+        <attr name="beforeTextAvatarBorder" />
+        <attr name="afterTextIcon" />
+        <attr name="afterTextIconTint" />
+        <attr name="beforeText" />
+        <attr name="afterText" />
+        <attr name="textColor" />
+        <attr name="textAppearance" />
+        <attr name="titleAppearance" />
+        <attr name="textWrapping" />
+        <attr name="labelText" />
+        <attr name="maxLines" format="integer" />
+        <attr name="required" />
+    </declare-styleable>
+
+    <declare-styleable name="TextLabelView">
+        <attr name="tint" format="color" />
+        <attr name="textColor" />
+    </declare-styleable>
+
+    <declare-styleable name="SingleLineMenuView">
+        <attr name="labelText" format="string" />
+        <attr name="labelBackground" format="reference" />
+        <attr name="labelTint" format="color" />
+        <attr name="counterText" format="string" />
+        <attr name="counterBackground" format="reference" />
+        <attr name="counterTint" format="color" />
+        <attr name="text" />
+        <attr name="beforeText" />
+        <attr name="beforeTextIcon" />
+        <attr name="beforeTextIconTint" />
+        <attr name="afterText" />
+        <attr name="afterTextIcon" />
+        <attr name="afterTextIconTint" />
+        <attr name="textWrapping" />
+    </declare-styleable>
+
+    <declare-styleable name="TextInputLayoutPostfix">
+        <attr name="postfix" />
+    </declare-styleable>
+
+    <declare-styleable name="SearchView">
+        <attr name="hint" format="string" />
+        <attr name="android:inputType" />
+        <attr name="android:maxLength" />
+    </declare-styleable>
+
+    <declare-styleable name="ProgressBar">
+        <attr name="indeterminateDrawableTint" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="ProgressButton">
+        <attr name="text" />
+        <attr name="progress" />
+        <attr name="styleButton" />
+    </declare-styleable>
+
+    <declare-styleable name="CounterButton">
+        <attr name="text" />
+        <attr name="icon" />
+        <attr name="count" format="integer" />
+        <attr name="progress" />
+    </declare-styleable>
+
+    <declare-styleable name="SubMenuExtendedFab">
+        <attr name="text" />
+        <attr name="icon" />
+    </declare-styleable>
+
+    <declare-styleable name="DividerView">
+        <attr name="dividerViewStyle" format="reference" />
+        <attr name="orientation" format="enum">
+            <enum name="vertical" value="1" />
+            <enum name="horizontal" value="2" />
+        </attr>
+        <attr name="dividerColor" format="color" />
+        <attr name="backgroundColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="StubView">
+        <attr name="icon" />
+        <attr name="iconTint" />
+        <attr name="title" />
+        <attr name="description" format="string" />
+        <attr name="errorAction" format="string" />
+        <attr name="errorActionTint" format="color" />
+        <attr name="background" />
+        <attr name="callAction" format="boolean" />
+        <attr name="action" format="string" />
+        <attr name="isFashion" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CheckableGroup">
+        <attr name="choiceMode" format="enum">
+            <enum name="single" value="1" />
+            <enum name="multi" value="0" />
+        </attr>
+        <attr name="emptyAllowed" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="RangeView">
+        <attr name="title" />
+        <attr name="postfix" />
+    </declare-styleable>
+
+    <declare-styleable name="RangeViewV2">
+        <attr name="title" />
+        <attr name="titleWithRequired" format="boolean" />
+        <attr name="isTitleVisible" format="boolean" />
+        <attr name="firstPlaceholderText" format="string" />
+        <attr name="firstPlaceholderRequired" format="boolean" />
+        <attr name="firstRightItem" format="reference" />
+        <attr name="firstRightItemTint" format="color" />
+        <attr name="firstTextEditable" format="boolean" />
+        <attr name="secondPlaceholderText" format="string" />
+        <attr name="secondPlaceholderRequired" format="boolean" />
+        <attr name="secondRightItem" format="reference" />
+        <attr name="secondRightItemTint" format="color" />
+        <attr name="secondTextEditable" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CheckView">
+        <attr name="title" />
+        <attr name="textAppearance" />
+    </declare-styleable>
+
+    <declare-styleable name="PostfixEditText">
+        <attr name="postfixTextColor" format="color" />
+        <attr name="postfix" />
+    </declare-styleable>
+
+    <declare-styleable name="ReadMoreTextView">
+        <attr name="trimExpandedText" format="string" />
+        <attr name="trimCollapsedText" format="string" />
+        <attr name="trimLength" format="integer" />
+        <attr name="showTrimExpandedText" format="boolean" />
+        <attr name="colorClickableText" format="color" />
+        <attr name="trimLines" format="integer" />
+        <attr name="trimMode">
+            <enum name="trimModeLine" value="0" />
+            <enum name="trimModeLength" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="TitledReadMoreTextView">
+        <attr name="title" />
+        <attr name="text" />
+        <attr name="colorClickableText" />
+        <attr name="titleAppearance" />
+    </declare-styleable>
+
+    <declare-styleable name="ObjectTickerView">
+        <attr name="tickerBackgroundColor" format="color" />
+        <attr name="tickerTextColor" format="color" />
+        <attr name="startCount" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="LegendRowView">
+        <attr name="icon" />
+        <attr name="iconTint" />
+        <attr name="text" />
+    </declare-styleable>
+
+    <declare-styleable name="MessageInputView">
+        <attr name="textHint" format="string" />
+        <attr name="sendIconEmptyTint" format="color" />
+        <attr name="sendIconNonEmptyTint" format="color" />
+        <attr name="beforeInputIcon" format="reference" />
+        <attr name="beforeInputIconTint" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundedCornersFrameLayout">
+        <attr name="cornerRadius" />
+    </declare-styleable>
+
+    <declare-styleable name="TextInputLayout">
+        <attr name="withErrorIcon" format="boolean" />
+        <attr name="hintRequired" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="RowView">
+        <attr name="row_title" format="string" />
+        <attr name="row_postfix" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="EditTextWithPostfix">
+        <attr name="text" />
+        <attr name="postfix" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="ValueAndPercentView">
+        <attr name="value_postfix" format="string" />
+        <attr name="percent_postfix" format="string" />
+        <attr name="value_label" format="string" />
+        <attr name="percent_label" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="BankInterestRow">
+        <attr name="label" format="string" />
+        <attr name="start_padding" format="dimension" />
+        <attr name="end_padding" format="dimension" />
+        <attr name="text_percent_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="LoadingCardView">
+        <attr name="cardImage" format="reference" />
+        <attr name="cardImageColor" format="reference|color" />
+        <attr name="cardImageSize" format="dimension" />
+        <attr name="cardProgressSize" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="LoaderView">
+        <attr name="color" />
+    </declare-styleable>
+
+    <declare-styleable name="CellViewV2">
+        <attr name="cellMinHeight" format="dimension" />
+
+        <attr name="textsVerticalMargin" format="dimension" />
+        <attr name="textSecondTopMargin" format="dimension" />
+        <attr name="textThirdTopMargin" format="dimension" />
+        <attr name="dividerLeftMargin" format="dimension" />
+        <attr name="dividerRightMargin" format="dimension" />
+        <attr name="itemsLeftMargin" format="dimension" />
+        <attr name="itemsRightMargin" format="dimension" />
+
+        <attr name="textFirstEnabled" format="boolean" />
+        <attr name="textSecondEnabled" format="boolean" />
+        <attr name="textThirdEnabled" format="boolean" />
+        <attr name="dividerEnabled" format="boolean" />
+
+        <attr name="textFirst" format="string" />
+        <attr name="textFirstAppearance" format="reference" />
+        <attr name="textFirstMaxLines" format="integer" />
+        <attr name="textFirstAllCaps" format="boolean" />
+        <attr name="textFirstWithRequired" format="boolean" />
+
+        <attr name="textSecond" format="string" />
+        <attr name="textSecondAppearance" format="reference" />
+        <attr name="textSecondMaxLines" format="integer" />
+        <attr name="textSecondAllCaps" format="boolean" />
+        <attr name="textSecondWithRequired" format="boolean" />
+
+        <attr name="textThird" format="string" />
+        <attr name="textThirdAppearance" format="reference" />
+        <attr name="textThirdMaxLines" format="integer" />
+        <attr name="textThirdAllCaps" format="boolean" />
+        <attr name="textThirdWithRequired" format="boolean" />
+
+        <attr name="itemLeftType" />
+        <attr name="itemLeftImage" />
+        <attr name="itemLeftImageTint" />
+        <attr name="itemLeftCounterStyle" />
+        <attr name="itemLeftText" />
+        <attr name="itemLeftTextAppearance" />
+        <attr name="itemLeftButtonStyle" />
+        <attr name="itemLeftControlStyle" />
+        <attr name="itemLeftLoaderStyle" />
+        <attr name="itemLeftTouchTarget" />
+
+        <attr name="itemRightFirstType" />
+        <attr name="itemRightFirstImage" />
+        <attr name="itemRightFirstImageTint" />
+        <attr name="itemRightFirstCounterStyle" />
+        <attr name="itemRightFirstText" />
+        <attr name="itemRightFirstTextAppearance" />
+        <attr name="itemRightFirstButtonStyle" />
+        <attr name="itemRightFirstControlStyle" />
+        <attr name="itemRightFirstLoaderStyle" />
+        <attr name="itemRightFirstTouchTarget" />
+
+        <attr name="itemRightSecondType" />
+        <attr name="itemRightSecondImage" />
+        <attr name="itemRightSecondImageTint" />
+        <attr name="itemRightSecondCounterStyle" />
+        <attr name="itemRightSecondText" />
+        <attr name="itemRightSecondTextAppearance" />
+        <attr name="itemRightSecondButtonStyle" />
+        <attr name="itemRightSecondControlStyle" />
+        <attr name="itemRightSecondLoaderStyle" />
+        <attr name="itemRightSecondTouchTarget" />
+    </declare-styleable>
+
+    <declare-styleable name="TextFieldView">
+        <attr name="android:text" />
+        <attr name="android:inputType" />
+        <attr name="android:imeOptions" />
+        <attr name="android:maxLines" />
+        <attr name="isEditable" format="boolean" />
+        <attr name="textFieldType" format="enum">
+            <enum name="normal" value="0" />
+            <enum name="slim" value="1" />
+        </attr>
+        <attr name="placeholderMode" format="enum">
+            <enum name="transition" value="0" />
+            <enum name="hint" value="1" />
+        </attr>
+        <attr name="placeholderText" format="string" />
+        <attr name="placeholderWithRequired" format="boolean" />
+        <attr name="bottomContainerHeightWithContent" format="dimension" />
+        <attr name="bottomContainerHeightWithoutContent" format="dimension" />
+        <attr name="helperText" format="string" />
+        <attr name="errorText" format="string" />
+        <attr name="counterEnabled" format="boolean" />
+        <attr name="android:maxLength" />
+        <attr name="counterMaxLength" format="integer" />
+        <!--        For counterRestrictions you should use 2^n numbers or zero-->
+        <attr name="counterRestrictions">
+            <flag name="none" value="0" />
+            <flag name="spaces" value="1" />
+            <flag name="digits" value="2" />
+            <flag name="line_break" value="4" />
+        </attr>
+        <attr name="leftItemType" format="enum">
+            <enum name="none" value="0" />
+            <enum name="icon" value="1" />
+        </attr>
+        <attr name="leftItemImage" format="reference" />
+        <attr name="leftItemImageTint" format="color" />
+        <attr name="rightItemType" format="enum">
+            <enum name="none" value="0" />
+            <enum name="icon" value="1" />
+            <enum name="meta" value="2" />
+        </attr>
+        <attr name="rightItemImage" format="reference" />
+        <attr name="rightItemImageTint" format="color" />
+        <attr name="rightItemText" format="string" />
+        <attr name="rightItemTextAppearance" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="ShadowView">
+        <attr name="android:foreground" />
+        <attr name="shadowMargin" format="dimension" />
+        <attr name="shadowMarginTop" format="dimension" />
+        <attr name="shadowMarginLeft" format="dimension" />
+        <attr name="shadowMarginRight" format="dimension" />
+        <attr name="shadowMarginBottom" format="dimension" />
+        <attr name="cornerRadius" />
+        <attr name="cornerRadiusTL" format="dimension" />
+        <attr name="cornerRadiusTR" format="dimension" />
+        <attr name="cornerRadiusBL" format="dimension" />
+        <attr name="cornerRadiusBR" format="dimension" />
+        <attr name="shadowColor" format="color" />
+        <attr name="shadowDx" format="dimension" />
+        <attr name="shadowDy" format="dimension" />
+        <attr name="shadowBlurRadius" format="dimension" />
+        <attr name="backgroundColor" />
+    </declare-styleable>
+
+    <declare-styleable name="ButtonView">
+        <attr name="icon" />
+        <attr name="iconTint" />
+        <attr name="iconSize" />
+        <attr name="iconPosition" format="enum">
+            <enum name="none" value="0" />
+            <enum name="left" value="1" />
+            <enum name="right" value="2" />
+        </attr>
+        <attr name="iconTextMargin" format="dimension" />
+        <attr name="text" />
+        <attr name="textAppearance" />
+        <attr name="textColor" />
+        <attr name="textGravity" />
+        <attr name="loaderColor" format="color" />
+        <attr name="isSelected" format="boolean" />
+        <attr name="buttonMaxLines" format="integer" />
+        <attr name="buttonMinWidth" format="dimension" />
+        <attr name="isLayoutCentered" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ObjectButtonView">
+        <attr name="icon" />
+        <attr name="iconTint" />
+        <attr name="text" />
+        <attr name="textColor" />
+    </declare-styleable>
+
+    <declare-styleable name="StageView">
+        <attr name="text" />
+        <attr name="stageNumber" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="TableView">
+        <attr name="counterIsVisible" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="StaticMapBlockView">
+        <attr name="titleIsVisible" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="MessageMediaBoxView">
+        <attr name="textAppearance" />
+        <attr name="errorIconSize" format="dimension" />
+        <attr name="stopIconSize" format="dimension" />
+        <attr name="loaderStyle" format="enum">
+            <enum name="primary40x40" value="0" />
+            <enum name="primary24x24" value="1" />
+            <enum name="primary16x16" value="2" />
+            <enum name="white24x24" value="3" />
+            <enum name="white32x32" value="4" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="ControlView">
+        <attr name="controlType" format="enum">
+            <enum name="radioButton" value="0" />
+            <enum name="checkBox" value="1" />
+            <enum name="checkBoxCircle" value="2" />
+        </attr>
+        <attr name="controlState" format="enum">
+            <enum name="unchecked" value="0" />
+            <enum name="partiallyChecked" value="1" />
+            <enum name="checked" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="SegmentedControlView">
+        <attr name="segmentsMode" format="enum">
+            <enum name="switcher" value="0" />
+            <enum name="selector" value="1" />
+        </attr>
+        <attr name="switcherModeAnimated" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="SwitcherView">
+        <attr name="hasChangeByClick" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="DecorationListView">
+        <attr name="icon" />
+        <attr name="title" />
+        <attr name="text" />
+    </declare-styleable>
+
+    <declare-styleable name="ButtonIconView">
+        <attr name="icon" />
+        <attr name="iconTint" />
+        <attr name="iconSize" />
+        <attr name="loaderColor" />
+    </declare-styleable>
+
+    <declare-styleable name="BannerView">
+        <attr name="android:background" />
+        <attr name="title" />
+        <attr name="titleAppearance" />
+        <attr name="text" />
+        <attr name="textAppearance" />
+        <attr name="textMaxLines" />
+        <attr name="avatarImage" format="reference" />
+        <attr name="avatarStyle" format="enum">
+            <enum name="dark" value="0" />
+            <enum name="light" value="1" />
+        </attr>
+        <!-- not best namings -->
+        <attr name="buttonsStyle" format="enum">
+            <enum name="none" value="0" />
+            <enum name="one" value="1" />
+            <enum name="oneСenter" value="3" />
+            <enum name="two" value="2" />
+        </attr>
+        <attr name="buttonFirstText" format="string" />
+        <attr name="buttonSecondText" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="PromoBannerView">
+        <attr name="firstLayerColor" format="color" />
+        <attr name="firstLayerDrawable" format="reference" />
+        <attr name="secondLayerDrawable" format="reference" />
+        <attr name="firstTextPaddings" format="reference" />
+        <attr name="firstTextWidthPercent" format="float" />
+        <attr name="secondTextPaddings" format="reference" />
+        <attr name="secondTextWidthPercent" format="float" />
+        <attr name="thirdTextPaddings" format="reference" />
+        <attr name="thirdTextWidthPercent" format="float" />
+        <attr name="bannerButtonText" format="string" />
+        <attr name="buttonVisible" format="boolean" />
+        <attr name="buttonMargins" format="reference" />
+        <attr name="icon" />
+        <attr name="iconTint" />
+        <attr name="iconTintDrawable" format="reference" />
+        <attr name="iconSize" format="dimension" />
+        <attr name="iconAnchor" format="enum">
+            <enum name="top" value="0" />
+            <enum name="bottom" value="1" />
+            <enum name="center" value="2" />
+        </attr>
+        <attr name="iconMargins" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="BannerAdditionalView">
+        <attr name="android:background" />
+        <attr name="title" />
+        <attr name="titleAppearance" />
+        <attr name="text" />
+        <attr name="textAppearance" />
+        <attr name="icon" />
+        <attr name="iconTint" />
+        <attr name="textButton" format="string" />
+    </declare-styleable>
+
+    <!-- Please use function fill -->
+    <declare-styleable name="PlaceholderView">
+        <attr name="goneTextMarginTop" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="TopBarView">
+        <attr name="topbarMode" format="enum">
+            <enum name="casual" value="0" />
+            <enum name="search" value="1" />
+        </attr>
+        <attr name="navigationIcon" format="reference" />
+        <attr name="navigationIconTint" format="color" />
+        <attr name="searchNavigationIcon" format="reference" />
+        <attr name="searchNavigationIconTint" format="color" />
+        <attr name="searchHint" format="string" />
+        <attr name="title" />
+        <attr name="titleIcon" format="reference" />
+        <attr name="titleIconSize" format="dimension" />
+        <attr name="titleStyle" format="reference" />
+        <attr name="titleIconType" format="enum">
+            <enum name="none" value="0" />
+            <enum name="icon" value="1" />
+            <enum name="loader" value="2" />
+        </attr>
+        <attr name="subtitle" />
+        <attr name="logo" format="reference" />
+        <attr name="showTopbarDivider" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="SliderView">
+        <attr name="tickSizeActive" format="dimension" />
+        <attr name="tickSizeInactive" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="EditingTabBarView">
+        <attr name="editingTabBarType" format="enum">
+            <enum name="top" value="0" />
+            <enum name="bottom" value="1" />
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="CounterView">
+        <attr name="useBackground" format="boolean" />
+        <attr name="backgroundColor" />
+        <attr name="number" format="integer" />
+        <attr name="numberTextAppearance" format="reference" />
+        <attr name="numberMax" format="integer" />
+        <attr name="numberMaxWithPlus" format="boolean" />
+        <attr name="numberMinWidth" format="boolean" />
+        <attr name="numberVerticalPadding" format="reference" />
+        <attr name="numberHorizontalPadding" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="NotificationView">
+        <attr name="backgroundColor" />
+        <attr name="hasBorder" format="boolean" />
+        <attr name="strokeWidthBorder" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="LabelView">
+        <attr name="android:textAppearance" />
+        <attr name="paddingHorizontal" format="dimension" />
+        <attr name="backgroundColor" />
+        <attr name="cornersType" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleBoxView">
+        <attr name="image" />
+        <attr name="imageTint" />
+        <attr name="topLeftStyle" format="reference" />
+        <attr name="topRightStyle" format="reference" />
+        <attr name="bottomLeftStyle" format="reference" />
+        <attr name="bottomRightStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="ImageBoxChild">
+        <attr name="imageBoxChildType" format="enum">
+            <enum name="icon" value="0" />
+            <enum name="notification" value="1" />
+        </attr>
+        <attr name="imageBoxChildIconAppearance" format="reference" />
+        <attr name="imageBoxChildNotificationAppearance" format="reference" />
+        <attr name="imageBoxChildSize" format="dimension" />
+        <attr name="imageBoxChildCornerMargin" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="CardPeopleView">
+
+        <attr name="itemRightFirstType" />
+        <attr name="itemRightFirstImage" />
+        <attr name="itemRightFirstImageTint" />
+        <attr name="itemRightFirstCounterStyle" />
+        <attr name="itemRightFirstControlStyle" />
+
+        <attr name="itemRightSecondType" />
+        <attr name="itemRightSecondImage" />
+        <attr name="itemRightSecondImageTint" />
+        <attr name="itemRightSecondCounterStyle" />
+        <attr name="itemRightSecondControlStyle" />
+
+        <attr name="userDeleted" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CardPeopleSmallView">
+        <attr name="icon" />
+        <attr name="iconTint" />
+        <attr name="title" />
+        <attr name="titleAppearance" />
+
+    </declare-styleable>
+
+    <declare-styleable name="CardObjectMiniView">
+        <attr name="photo" format="string" />
+        <attr name="price" />
+        <attr name="address" format="string" />
+        <attr name="characteristics" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="CalendarEventView">
+        <attr name="photo" />
+        <attr name="icon" />
+        <attr name="iconBackgroundTint" format="color" />
+        <attr name="title" />
+        <attr name="description" />
+        <attr name="overlayVisibility" format="boolean" />
+        <attr name="time" format="string|reference" />
+        <attr name="itemType" format="enum">
+            <enum name="event" value="0" />
+            <enum name="showing" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="ReviewView">
+        <attr name="avatarReview" format="string" />
+        <attr name="rating" />
+        <attr name="reviewerFio" format="string" />
+        <attr name="dateText" format="string" />
+        <attr name="contentText" format="string" />
+        <attr name="dividerEnabled" />
+        <attr name="warningText" format="string" />
+        <attr name="iconMenuEnabled" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="OtherDescView">
+        <attr name="icon" />
+        <attr name="iconTint" />
+        <attr name="contentText" />
+        <attr name="dividerTopEnabled" format="boolean" />
+        <attr name="dividerBottomEnabled" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CardMoreTextView">
+        <attr name="title" />
+        <attr name="subtitle" />
+        <attr name="status" format="string" />
+        <attr name="statusColor" format="reference" />
+        <attr name="contentText" />
+        <attr name="contentCollapsed" format="boolean" />
+        <attr name="collapsingEnabled" format="boolean" />
+        <attr name="icon" />
+        <attr name="iconTint" />
+        <attr name="chevronEnabled" format="boolean" />
+        <attr name="contentTextAppearance" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="RoomsCountView">
+        <attr name="roomsChoiceMode" format="enum">
+            <enum name="single" value="1" />
+            <enum name="multi" value="0" />
+        </attr>
+    </declare-styleable>
+
+    <attr name="rating" format="float" />
+
+    <declare-styleable name="RatingBar">
+        <attr name="ratingBarStyle" format="reference" />
+        <attr name="starsNumber" format="integer" />
+        <attr name="rating" />
+        <attr name="filledRes" format="reference" />
+        <attr name="emptyRes" format="reference" />
+        <attr name="starsTint" format="color" />
+        <attr name="halfFilledRes" format="reference" />
+        <attr name="spacing" format="dimension" />
+        <attr name="isIndicator" format="boolean" />
+        <attr name="starSize" format="dimension">
+            <enum name="match_parent" value="-1" />
+            <enum name="wrap_content" value="-2" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="PinCodeView">
+        <attr name="pinCodeViewStyle" format="reference" />
+        <attr name="digitsCount" format="integer" />
+        <attr name="boxActiveDrawable" format="reference" />
+        <attr name="boxFilledDrawable" format="reference" />
+        <attr name="boxEmptyDrawable" format="reference" />
+        <attr name="boxErrorDrawable" format="reference" />
+        <attr name="boxWidth" format="dimension">
+            <enum name="match_parent" value="-1" />
+            <enum name="wrap_content" value="-2" />
+        </attr>
+        <attr name="boxHeight" format="dimension">
+            <enum name="match_parent" value="-1" />
+            <enum name="wrap_content" value="-2" />
+        </attr>
+        <attr name="boxSpacing" format="dimension" />
+        <attr name="isErrorEnabled" format="boolean" />
+        <attr name="errorTextAppearance" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="NotificationImageView">
+        <attr name="notificationVisible" format="boolean" />
+        <attr name="notificationMarginTop" format="dimension" />
+        <attr name="notificationMarginRight" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="CardRatingView">
+        <attr name="title" />
+        <attr name="contentText" />
+        <attr name="rating" />
+        <attr name="ratingNumberVisible" format="boolean" />
+        <attr name="dividerEnabled" />
+    </declare-styleable>
+
+    <declare-styleable name="CardFlatSmallView">
+        <attr name="title" />
+        <attr name="contentText" />
+        <attr name="controlEnabled" format="boolean" />
+        <attr name="dividerEnabled" />
+    </declare-styleable>
+
+    <declare-styleable name="CardClassView">
+        <attr name="image" />
+        <attr name="text" />
+        <attr name="isSelected" />
+    </declare-styleable>
+
+    <declare-styleable name="TableTextView">
+        <attr name="itemStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="TagView">
+        <attr name="text" />
+        <attr name="image" />
+        <attr name="backgroundColor" />
+        <attr name="textColor" />
+    </declare-styleable>
+
+    <declare-styleable name="FilterButtonView">
+        <attr name="image" />
+        <attr name="text" />
+        <attr name="isCounterVisible" format="boolean" />
+        <attr name="isLoading" format="boolean" />
+        <attr name="counterNumber" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="CardTicketSmallView">
+        <attr name="ticketName" format="string" />
+        <attr name="ticketId" format="string" />
+        <attr name="labelText" />
+        <attr name="isLabelVisible" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CardTicketView">
+        <attr name="title" />
+        <attr name="subtitle" />
+        <attr name="ticketInfo" format="string" />
+        <attr name="isFavoriteVisible" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="TabLayoutView">
+        <attr name="tabsType" format="enum">
+            <enum name="segment" value="0" />
+            <enum name="buttons" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="MessageCardView">
+        <attr name="isChat" format="boolean" />
+        <attr name="avatar" format="string" />
+        <attr name="avatarImage" />
+        <attr name="avatarBackground" format="color" />
+        <attr name="isAvatarNotificationVisible" format="boolean" />
+        <attr name="messageIndicator" format="enum">
+            <enum name="none" value="0" />
+            <enum name="delivered" value="1" />
+            <enum name="read" value="2" />
+        </attr>
+        <attr name="isErrorVisible" format="boolean" />
+        <attr name="messageTitle" format="string" />
+        <attr name="messageName" format="string" />
+        <attr name="messageText" format="string" />
+        <attr name="messageTime" format="string" />
+        <attr name="messageSender" format="string" />
+        <attr name="messageType" format="enum">
+            <enum name="simple" value="0" />
+            <enum name="withSender" value="1" />
+            <enum name="draft" value="2" />
+            <enum name="own" value="3" />
+        </attr>
+        <attr name="messageCount" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="MessageBubble">
+        <attr name="messageTitle" />
+        <attr name="messageTitleAppearance" format="reference" />
+        <attr name="messageText" />
+        <attr name="messageTextAppearance" format="reference" />
+        <attr name="messageLinkColor" format="color" />
+        <attr name="messageTime" />
+        <attr name="messageMicroTextAppearance" format="reference" />
+        <attr name="unsupportedMessageTextAppearance" format="reference" />
+        <attr name="avatar" />
+        <attr name="avatarBackground" />
+        <attr name="isAvatarNotificationVisible" />
+        <attr name="messageIconTint" format="color" />
+        <attr name="isSingleChat" format="boolean" />
+        <attr name="messageStyle" format="enum">
+            <enum name="sent" value="0" />
+            <enum name="received" value="1" />
+        </attr>
+        <attr name="messageStatus">
+            <enum name="none" value="0" />
+            <enum name="delivered" value="1" />
+            <enum name="read" value="2" />
+        </attr>
+        <attr name="messageState" format="enum">
+            <enum name="simple" value="0" />
+            <enum name="simple_with_title" value="1" />
+            <enum name="last" value="2" />
+            <enum name="last_with_title" value="3" />
+            <enum name="loading" value="4" />
+            <enum name="error" value="5" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="MessageBarView">
+        <attr name="placeholderText" />
+        <attr name="isAttachButtonVisible" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ButtonThemeView">
+        <attr name="tint" />
+        <attr name="isSelected" />
+    </declare-styleable>
+
+    <declare-styleable name="CardCommentView">
+        <attr name="commentAvatar" format="string" />
+        <attr name="commentName" format="string" />
+        <attr name="commentTime" format="string" />
+        <attr name="commentText" format="string" />
+        <attr name="commentStyle" format="enum">
+            <enum name="normal" value="0" />
+            <enum name="reply" value="1" />
+        </attr>
+        <attr name="isReplyIconVisible" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CatalogView">
+        <attr name="title" />
+        <attr name="isSelected" />
+    </declare-styleable>
+
+    <declare-styleable name="CardActionView">
+        <attr name="title" />
+        <attr name="subtitle" />
+        <attr name="labelText" />
+        <attr name="titleAppearance" />
+        <attr name="subtitleAppearance" />
+        <attr name="subtitleTopMargin" format="dimension" />
+        <attr name="isSubtitleStriked" format="boolean" />
+        <attr name="phoneInputVisible" format="boolean" />
+        <attr name="cardActionButtonText" format="string|reference" />
+        <attr name="cardActionButtonIcon" format="reference" />
+        <attr name="cardActionButtonMaxLines" format="integer" />
+        <attr name="cardActionButtonStyle" format="enum">
+            <enum name="secondary" value="0" />
+            <enum name="secondaryGrey" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="CardPeopleBoxView">
+        <attr name="avatar" />
+        <attr name="text" />
+    </declare-styleable>
+
+    <declare-styleable name="NewsCardView">
+        <attr name="isRead" format="boolean" />
+        <attr name="date" format="string" />
+        <attr name="title" />
+        <attr name="author" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="SquareBoxView">
+        <attr name="placeholderImage" format="reference" />
+        <attr name="placeholderImageSize" format="dimension" />
+        <attr name="overlayColor" format="reference" />
+        <attr name="cornerRadius" />
+        <attr name="borderStyle" format="enum">
+            <enum name="grey" value="0" />
+            <enum name="blue" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="CounterTextView">
+        <attr name="counterRestrictionsOld" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="CardShowing">
+        <attr name="title" />
+        <attr name="text" />
+        <attr name="date" />
+        <attr name="additionalTagStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="CardAdView">
+        <attr name="title" />
+        <attr name="subtitle" />
+        <attr name="controlItemType" format="enum">
+            <enum name="chevron" value="0" />
+            <enum name="checkBox" value="1" />
+        </attr>
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Special -->
+    <color name="transparent">#00000000</color>
+    <color name="shadow_1">@color/shadow_1_light</color>
+    <color name="shadow_2">#5C000000</color>
+    <color name="shadow_3">#33000000</color>
+
+    <!-- Primary/Accent -->
+    <color name="primary_normal">@color/red_500</color>
+    <color name="primary_highlight">@color/red_133</color>
+    <color name="primary_disable">@color/old_red_100</color>
+
+    <color name="accent_normal">@color/blue_500</color>
+    <color name="accent_normal_8">@color/blue_500_8</color>
+    <color name="accent_secondary">@color/blue_100</color>
+    <color name="accent_disable">@color/black_100</color>
+    <color name="accent_dynamic_normal">@color/blue_500</color>
+
+    <!-- Color themes -->
+    <color name="accent_normal_orange">@color/yellow_900</color>
+    <color name="accent_normal_8_orange">@color/yellow_900_8</color>
+    <color name="accent_secondary_orange">@color/orange_50</color>
+    <color name="accent_disable_orange">@color/accent_disable</color>
+
+    <color name="accent_normal_yellow">@color/yellow_800</color>
+    <color name="accent_normal_8_yellow">@color/yellow_800_8</color>
+    <color name="accent_secondary_yellow">@color/yellow_100</color>
+    <color name="accent_disable_yellow">@color/accent_disable</color>
+
+    <color name="accent_normal_green">@color/green_140</color>
+    <color name="accent_normal_8_green">@color/green_140_8</color>
+    <color name="accent_secondary_green">@color/green_50</color>
+    <color name="accent_disable_green">@color/accent_disable</color>
+
+    <color name="accent_normal_light_blue">@color/light_blue_500</color>
+    <color name="accent_normal_8_light_blue">@color/light_blue_500_8</color>
+    <color name="accent_secondary_light_blue">@color/light_blue_100</color>
+    <color name="accent_disable_light_blue">@color/accent_disable</color>
+
+    <color name="accent_normal_blue">@color/blue_195</color>
+    <color name="accent_normal_8_blue">@color/blue_200_8</color>
+    <color name="accent_secondary_blue">@color/light_blue_100</color>
+    <color name="accent_disable_blue">@color/accent_disable</color>
+
+    <color name="accent_normal_violet">@color/indigo_400</color>
+    <color name="accent_normal_8_violet">@color/indigo_400_8</color>
+    <color name="accent_secondary_violet">@color/indigo_50</color>
+    <color name="accent_disable_violet">@color/accent_disable</color>
+
+    <color name="accent_normal_pink">@color/lilac_300</color>
+    <color name="accent_normal_8_pink">@color/lilac_300_8</color>
+    <color name="accent_secondary_pink">@color/lilac_50</color>
+    <color name="accent_disable_pink">@color/accent_disable</color>
+
+    <!-- Day/Night mutable -->
+    <color name="text_primary">@color/black_1_87</color>
+    <color name="text_secondary">@color/black_1_54</color>
+    <color name="text_disable">@color/black_1_38</color>
+    <color name="text_snackbar">@color/white_1_100</color>
+
+    <color name="icon_tool">@color/black_1_87</color>
+
+    <color name="overlay_loader">@color/white_1_80</color>
+    <color name="overlay_inactive">@color/white_1_80</color>
+    <color name="overlay_photo">@color/white_1_38</color>
+    <color name="overlay_light_transparency">@color/overlay_light_transparency_light</color>
+
+    <color name="ui_divider">@color/black_1_12</color>
+    <color name="ui_counter_opaque">@color/grey_135</color>
+    <color name="ui_disable_radio">@color/grey_135</color>
+    <color name="ui_chess_inactive">@color/black_1_20</color>
+    <color name="ui_skeleton">@color/grey_110</color>
+    <color name="ui_highlight">@color/black_1_12</color>
+    <color name="ui_banner_alert">@color/red_130</color>
+    <color name="ui_light_stroke">@color/light_stroke_light</color>
+
+    <color name="button_gray">@color/grey_130</color>
+    <color name="button_light_gray">@color/grey_85</color>
+    <color name="button_secondary_error">@color/red_50</color>
+
+    <color name="bg_canvas">@color/grey_105</color>
+    <color name="bg_container">@color/white_1_100</color>
+    <color name="bg_snackbar">@color/grey_190</color>
+    <color name="bg_chess_cell">@color/grey_120</color>
+
+    <color name="other_brand">@color/red_900</color>
+    <color name="other_dynamic_error">@color/red_150</color>
+
+    <!-- Day/Night immutable -->
+    <color name="text_white">@color/white_1_100</color>
+    <color name="text_secondary_white">@color/white_1_54</color>
+
+    <color name="icon_normal">@color/grey_160</color>
+    <color name="icon_white">@color/white_1_100</color>
+
+    <color name="overlay_help">@color/black_1_80</color>
+    <color name="overlay_standart">@color/black_1_38</color>
+    <color name="overlay_imagebox">@color/grey_200_80</color>
+    <color name="overlay_message">@color/grey_145_38</color>
+    <color name="overlay_statusserver">@color/grey_200_80</color>
+
+    <color name="ui_counter">@color/black_1_12</color>
+    <color name="ui_counter_white">@color/white_1_100</color>
+    <color name="ui_near">@color/light_blue_500</color>
+    <color name="ui_near_radius">@color/light_blue_500_16</color>
+    <color name="ui_qr">@color/light_blue_500_50</color>
+    <color name="ui_tag">@color/black_1_32</color>
+    <color name="ui_highlight_light">@color/white_1_12</color>
+    <color name="ui_highlight_camera">@color/grey_120</color>
+    <color name="ui_hidden_stroke">@color/hidden_stroke</color>
+
+    <color name="button_bg">@color/black_2_100</color>
+    <color name="button_bg_highlight">@color/black_3_100</color>
+
+    <color name="gray_900">@color/black_900</color>
+    <color name="gray_800">@color/black_800</color>
+    <color name="gray_700">@color/black_700</color>
+    <color name="gray_600">@color/black_600</color>
+    <color name="gray_500">@color/black_500</color>
+    <color name="gray_400">@color/black_400</color>
+    <color name="gray_300">@color/black_300</color>
+    <color name="gray_200">@color/black_200</color>
+    <color name="gray_100">@color/black_100</color>
+    <color name="gray_50">@color/black_50</color>
+
+    <color name="banner_additional_warning">@color/orange_40</color>
+    <color name="banner_additional_icon_warning">@color/orange_800</color>
+    <color name="banner_additional_error">@color/red_50</color>
+    <color name="banner_additional_icon_error">@color/red_600</color>
+    <color name="banner_additional_success">@color/green_25</color>
+    <color name="banner_additional_icon_success">@color/green_600</color>
+    <color name="banner_additional_info">@color/banner_bg_info</color>
+    <color name="banner_additional_icon_info">@color/banner_info</color>
+    <color name="banner_additional_gray">@color/black_50</color>
+    <color name="banner_additional_icon_gray">@color/black_600</color>
+
+    <color name="message_bubble_me">@color/light_blue_150</color>
+    <color name="message_bubble_not_mine">@color/white_1_100</color>
+
+    <color name="bg_multimedia">@color/black_2_100</color>
+    <color name="bg_map_green">@color/green_400_54</color>
+    <color name="bg_map_yellow">@color/yellow_120_54</color>
+    <color name="bg_map_red">@color/red_130_54</color>
+    <color name="bg_map_blue">@color/light_blue_500_38</color>
+    <color name="bg_container_white">@color/white_1_100</color>
+
+    <color name="placeholder_red_1">@color/red_400</color>
+    <color name="placeholder_red_2">@color/red_300</color>
+    <color name="placeholder_raspberry_1">@color/raspberry_400</color>
+    <color name="placeholder_raspberry_2">@color/raspberry_300</color>
+    <color name="placeholder_indigo_1">@color/indigo_400</color>
+    <color name="placeholder_indigo_2">@color/indigo_300</color>
+    <color name="placeholder_lilac_1">@color/lilac_400</color>
+    <color name="placeholder_lilac_2">@color/lilac_300</color>
+    <color name="placeholder_blue_1">@color/light_blue_800</color>
+    <color name="placeholder_blue_2">@color/light_blue_600</color>
+    <color name="placeholder_light_blue_1">@color/turquoise_400</color>
+    <color name="placeholder_light_blue_2">@color/turquoise_200</color>
+    <color name="placeholder_green_1">@color/green_500</color>
+    <color name="placeholder_green_2">@color/green_300</color>
+    <color name="placeholder_green_3">@color/green_200</color>
+    <color name="placeholder_yellow_1">@color/yellow_800</color>
+    <color name="placeholder_yellow_2">@color/yellow_700</color>
+
+    <color name="companies_blue_vk">@color/blue_210</color>
+    <color name="companies_blue_facebook">@color/blue_220</color>
+    <color name="companies_blue_telegram">@color/blue_120</color>
+    <color name="companies_red_youtube">@color/red_160</color>
+    <color name="companies_brown_instagram">@color/brown_400</color>
+    <color name="companies_orange_ok">@color/orange_125</color>
+
+    <color name="companies_green_sber">@color/green_195</color>
+    <color name="companies_green_sber_highlight">@color/old_green_200</color>
+    <color name="companies_green_whatsapp">@color/green_175</color>
+    <color name="companies_green_whatsapp_highlight">@color/green_105</color>
+    <color name="companies_violet_viber">@color/violet_127</color>
+    <color name="companies_violet_viber_highlight">@color/violet_105</color>
+    <color name="companies_gosuslugi">@color/old_blue_200</color>
+
+    <color name="traffic_green_goga">@color/green_135</color>
+    <color name="traffic_red_batam">@color/red_118</color>
+    <color name="traffic_yellow_kris">@color/yellow_110</color>
+    <color name="traffic_grey_moldov">@color/grey_138</color>
+    <color name="traffic_green_moroch">@color/green_170</color>
+    <color name="traffic_green_cactuus">@color/green_190</color>
+
+    <color name="links_normal">@color/light_blue_500</color>
+    <color name="links_active">@color/blue_160</color>
+    <color name="links_visited">@color/old_blue_100</color>
+
+    <color name="graph_city">@color/green_180</color>
+    <color name="graph_district">@color/blue_190</color>
+    <color name="graph_object">@color/red_130</color>
+
+    <color name="calendar_event_event">@color/indigo_300</color>
+    <color name="calendar_event_client_call">@color/green_300</color>
+    <color name="calendar_event_client_meeting">@color/blue_160</color>
+
+    <color name="widget_primary">@color/black_1_87</color>
+    <color name="widget_secondary">@color/black_1_54</color>
+    <color name="widget_disable">@color/black_1_38</color>
+    <color name="widget_bg">@color/white_1_80</color>
+    <color name="widget_divider">@color/black_1_12</color>
+
+    <color name="chess_1">@color/blue_190</color>
+    <color name="chess_2">@color/yellow_140</color>
+    <color name="chess_no_filter">@color/grey_150</color>
+    <color name="chess_sale">@color/red_120</color>
+    <color name="chess_studio">@color/red_115</color>
+
+    <color name="system_success">@color/green_400</color>
+    <color name="system_attention">@color/yellow_120</color>
+    <color name="system_warning">@color/yellow_900</color>
+    <color name="system_warning_highlight">@color/orange_112</color>
+    <color name="system_error">@color/red_150</color>
+
+    <color name="stories_progressbar_active">@color/white_1_100</color>
+    <color name="stories_progressbar_inactive">@color/white_1_54</color>
+
+    <color name="android_edge_effect">@color/grey_160</color>
+
+    <!-- Deprecated -->
+    <color name="white_ripple">@color/white_rope</color>
+    <color name="primary_ripple">@color/ui_highlight</color>
+    <color name="secondary_ripple">@color/ripple_secondary_selector</color>
+    <color name="tertiary_ripple">@color/transparent</color>
+    <color name="red_ripple">@color/red_button_ripple_color</color>
+
+    <color name="splash_gradient_start">#A9E0FF</color>
+    <color name="splash_gradient_end">#D4F0FF</color>
+    <color name="splash_solid_color">@color/red_kiwish</color>
+
+    <color name="splash_winter_gradient_start">#E8F0FF</color>
+    <color name="splash_winter_gradient_end">#A9BAF7</color>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="illustration_small_size">200dp</dimen>
+    <dimen name="illustration_size">250dp</dimen>
+    <dimen name="illustration_middle_size">270dp</dimen>
+    <dimen name="illustration_high_size">300dp</dimen>
+</resources>

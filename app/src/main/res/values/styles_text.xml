@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Old styles -->
+
+    <!-- Deprecated: Заменить на другой стиль -->
+    <style name="Headline1">
+        <item name="android:textSize">@dimen/text_size_xxh</item>
+        <item name="android:textColor">?colorTextPrimary</item>
+        <item name="fontFamily">@font/proxima_nova_regular</item>
+        <item name="android:textStyle">normal</item>
+        <item name="textSizeType">x24</item>
+    </style>
+
+    <style name="Headline1.Big">
+        <item name="android:textSize">@dimen/text_size_xxxh</item>
+    </style>
+
+    <style name="Headline1.White">
+        <item name="android:textColor">?colorTextWhite</item>
+    </style>
+
+    <style name="Headline1.Black">
+        <item name="fontFamily">@font/proxima_nova_semibold</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Deprecated: Заменить на другой стиль -->
+    <style name="OverLine">
+        <item name="android:textSize">@dimen/text_size_xl</item>
+        <item name="android:textColor">?colorTextPrimary</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="fontFamily">@font/proxima_nova_semibold</item>
+        <item name="android:textStyle">normal</item>
+        <item name="textSizeType">x10</item>
+    </style>
+
+    <style name="OverLine.Bold">
+        <item name="fontFamily">@font/proxima_nova_semibold</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="OverLine.Bold.Secondary">
+        <item name="android:textColor">?colorTextSecondary</item>
+    </style>
+
+    <style name="OverLine.Secondary">
+        <item name="android:textColor">?colorTextSecondary</item>
+    </style>
+
+    <style name="OverLine.White">
+        <item name="android:textColor">?colorTextWhite</item>
+    </style>
+
+    <!--    Default Proxima styles-->
+
+    <style name="Proxima"/>
+
+    <style name="Proxima.Normal">
+        <item name="android:textStyle">normal</item>
+        <item name="fontFamily">@font/proxima_nova_regular</item>
+    </style>
+
+    <style name="Proxima.Bold">
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/proxima_nova_semibold</item>
+    </style>
+
+    <!-- New styles https://www.figma.com/file/1766uVaEdE1lzSgT7vL0rH/Styles-Light?type=design&node-id=1-193&mode=design&t=FrNZaxnPTIirioHt-0 -->
+
+    <style name="LargeTitle" parent="Proxima.Bold">
+        <item name="android:textSize">@dimen/text_size_xxxh</item>
+        <item name="android:textColor">?colorTextPrimary</item>
+        <item name="textSizeType">x34</item>
+    </style>
+
+    <style name="LargeTitle.White">
+        <item name="android:textColor">?colorTextWhite</item>
+    </style>
+
+    <style name="LargeTitle.Success">
+        <item name="android:textColor">?colorSystemSuccess</item>
+    </style>
+
+    <style name="Title1" parent="Proxima.Bold">
+        <item name="android:textSize">@dimen/text_size_xxh</item>
+        <item name="android:textColor">?colorTextPrimary</item>
+        <item name="textSizeType">x24</item>
+    </style>
+
+    <style name="Title1.White">
+        <item name="android:textColor">?colorTextWhite</item>
+    </style>
+
+    <style name="Title1.Inverse">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+    </style>
+
+
+    <style name="Title2" parent="Proxima.Bold">
+        <item name="android:textSize">@dimen/text_size_xh</item>
+        <item name="android:textColor">?colorTextPrimary</item>
+        <item name="textSizeType">x20</item>
+    </style>
+
+    <style name="Title2.Primary">
+        <item name="android:textColor">?colorPrimaryNormal</item>
+    </style>
+
+    <style name="Title2.White">
+        <item name="android:textColor">?colorTextWhite</item>
+    </style>
+
+    <style name="Title2.Inverse">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+    </style>
+
+    <style name="Title2.Secondary">
+        <item name="android:textColor">?colorTextSecondary</item>
+    </style>
+
+    <style name="Title2.Accent">
+        <item name="android:textColor">@color/accent_text_color_selector</item>
+    </style>
+
+    <style name="Title3" parent="Proxima.Bold">
+        <item name="android:textSize">@dimen/text_size_18</item>
+        <item name="android:textColor">?colorTextPrimary</item>
+        <item name="textSizeType">x18</item>
+    </style>
+
+    <style name="Title3.Disable">
+        <item name="android:textColor">?colorTextDisable</item>
+    </style>
+
+
+    <style name="Headline" parent="Proxima.Bold">
+        <item name="android:textSize">@dimen/text_size_h</item>
+        <item name="android:textColor">?colorTextPrimary</item>
+        <item name="textSizeType">x16</item>
+    </style>
+
+    <style name="Headline.Accent">
+        <item name="android:textColor">?colorAccentNormal</item>
+    </style>
+
+    <style name="Headline.LinksNormal">
+        <item name="android:textColor">?colorLinksNormal</item>
+    </style>
+
+    <style name="Headline.White">
+        <item name="android:textColor">?colorTextWhite</item>
+    </style>
+
+    <style name="Headline.Secondary">
+        <item name="android:textColor">?colorTextSecondary</item>
+    </style>
+
+    <style name="Headline.Error">
+        <item name="android:textColor">?colorSystemError</item>
+    </style>
+
+    <style name="Headline.Inverse">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+    </style>
+
+    <style name="Headline.Disable">
+        <item name="android:textColor">?colorTextDisable</item>
+    </style>
+
+    <style name="Subhead" parent="Proxima.Normal">
+        <item name="android:textSize">@dimen/text_size_h</item>
+        <item name="android:textColor">@color/primary_text_selector</item>
+        <item name="fontWeight">400</item>
+        <item name="textSizeType">x16</item>
+    </style>
+
+    <style name="Subhead.Secondary">
+        <item name="android:textColor">?colorTextSecondary</item>
+    </style>
+
+    <style name="Subhead.Disable">
+        <item name="android:textColor">?colorTextDisable</item>
+    </style>
+
+    <style name="Subhead.Accent">
+        <item name="android:textColor">?colorAccentNormal</item>
+    </style>
+
+    <style name="Subhead.White">
+        <item name="android:textColor">?colorTextWhite</item>
+    </style>
+
+    <style name="Subhead.Snackbar">
+        <item name="android:textColor">?colorTextSnackbar</item>
+    </style>
+
+    <style name="Subhead.Primary">
+        <item name="android:textColor">?colorPrimaryNormal</item>
+    </style>
+
+    <style name="Subhead.LinksNormal">
+        <item name="android:textColor">?colorLinksNormal</item>
+    </style>
+
+    <style name="Subhead.Toggle">
+        <item name="android:textColor">@color/toggle_button_accent_outline_text_color_selector
+        </item>
+    </style>
+
+    <style name="Subhead.ToggleError">
+        <item name="android:textColor">@color/toggle_button_error_outline_text_color_selector</item>
+    </style>
+
+
+    <style name="BodyBold" parent="Proxima.Bold">
+        <item name="android:textSize">@dimen/text_size_m</item>
+        <item name="android:textColor">?colorTextPrimary</item>
+        <item name="textSizeType">x14</item>
+    </style>
+
+    <style name="BodyBold.Secondary">
+        <item name="android:textColor">?colorTextSecondary</item>
+    </style>
+
+    <style name="BodyBold.Inverse">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+    </style>
+
+    <style name="BodyBold.Accent">
+        <item name="android:textColor">@color/accent_text_color_selector</item>
+    </style>
+
+    <style name="BodyBold.ControlPrimary">
+        <item name="android:textColor">@color/accent_control_text_color_selector</item>
+    </style>
+
+    <style name="BodyBold.White">
+        <item name="android:textColor">?colorTextWhite</item>
+    </style>
+
+    <style name="BodyBold.Primary">
+        <item name="android:textColor">?colorPrimaryNormal</item>
+    </style>
+
+    <style name="Body" parent="Proxima.Normal">
+        <item name="android:textSize">@dimen/text_size_m</item>
+        <item name="android:textColor">?colorTextPrimary</item>
+        <item name="textSizeType">x14</item>
+    </style>
+
+    <style name="Body.Secondary">
+        <item name="android:textColor">?colorTextSecondary</item>
+    </style>
+
+    <style name="Body.White">
+        <item name="android:textColor">?colorTextWhite</item>
+    </style>
+
+    <style name="Body.SecondaryWhite">
+        <item name="android:textColor">?colorTextSecondaryWhite</item>
+    </style>
+
+    <style name="Body.Inverse">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+    </style>
+
+    <style name="Body.Disable">
+        <item name="android:textColor">?colorTextDisable</item>
+    </style>
+
+    <style name="Body.Accent">
+        <item name="android:textColor">?colorAccentNormal</item>
+    </style>
+
+    <style name="Body.Warning">
+        <item name="android:textColor">?colorSystemWarning</item>
+    </style>
+
+    <style name="Body.Error">
+        <item name="android:textColor">?colorSystemError</item>
+    </style>
+
+    <style name="Tiny" parent="Proxima.Normal">
+        <item name="android:textSize">@dimen/text_size_l</item>
+        <item name="android:textColor">?colorTextPrimary</item>
+        <item name="textSizeType">x12</item>
+    </style>
+
+    <style name="Tiny.Secondary">
+        <item name="android:textColor">?colorTextSecondary</item>
+    </style>
+
+    <style name="Tiny.Accent">
+        <item name="android:textColor">?colorAccentNormal</item>
+    </style>
+
+    <style name="Tiny.White">
+        <item name="android:textColor">?colorTextWhite</item>
+    </style>
+
+    <style name="Tiny.Error">
+        <item name="android:textColor">?colorSystemError</item>
+    </style>
+
+    <style name="Tiny.Success">
+        <item name="android:textColor">?colorSystemSuccess</item>
+    </style>
+
+    <style name="Tiny.Warning">
+        <item name="android:textColor">?colorSystemWarning</item>
+    </style>
+
+    <style name="Tiny.SecondaryWhite">
+        <item name="android:textColor">?colorTextSecondaryWhite</item>
+    </style>
+
+    <style name="Tiny.Inverse">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+    </style>
+
+    <style name="Tiny.Disable">
+        <item name="android:textColor">?colorTextDisable</item>
+    </style>
+
+    <style name="Tiny.Bold">
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/proxima_nova_semibold</item>
+    </style>
+
+    <style name="Tiny.Bold.Inverse">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+    </style>
+
+    <style name="Tiny.Bold.Secondary">
+        <item name="android:textColor">?colorTextSecondary</item>
+    </style>
+
+    <style name="Tiny.Bold.White">
+        <item name="android:textColor">?colorTextWhite</item>
+    </style>
+
+
+    <style name="Micro" parent="Proxima.Bold">
+        <item name="android:textSize">@dimen/text_size_xl</item>
+        <item name="android:textColor">?colorTextPrimary</item>
+        <item name="textSizeType">x10</item>
+    </style>
+
+    <style name="Micro.Secondary">
+        <item name="android:textColor">?colorTextSecondary</item>
+    </style>
+
+    <style name="Micro.SecondaryWhite">
+        <item name="android:textColor">?colorTextSecondaryWhite</item>
+    </style>
+
+    <style name="Micro.White">
+        <item name="android:textColor">?colorTextWhite</item>
+    </style>
+
+    <style name="Micro.Disable">
+        <item name="android:textColor">?colorTextDisable</item>
+    </style>
+
+    <style name="Micro.Error">
+        <item name="android:textColor">?colorSystemError</item>
+    </style>
+
+</resources>

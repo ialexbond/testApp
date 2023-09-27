@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="action_bar_size" tools:ignore="PrivateResource">56dp</dimen>
+    <dimen name="action_bar_size_large">88dp</dimen>
+    <dimen name="action_bar_elevation">@dimen/elevation_h</dimen>
+</resources>
